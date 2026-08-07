@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="addons/cheddaboards/cheddaboards-logo.png" alt="CheddaBoards" width="360">
+  <img src="addons/cheddaboards/cheddaboards_logo.png" alt="CheddaBoards" width="360">
 </p>
 
 <h1 align="center">Dodge the Creeps × CheddaBoards</h1>
