@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/hero-leaderboard.png" alt="Dodge the Creeps title screen showing the Top Dodgers leaderboard with the player's entry highlighted in gold" width="420">
+  <img src="assetsassets/dodge-the-creeps-leaderboard.png" alt="Dodge the Creeps title screen showing the Top Dodgers leaderboard with the player's entry highlighted in gold" width="420">
 </p>
 
 Every Godot developer has built [Dodge the Creeps](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html). It's the official "your first 2D game" tutorial: dodge the mobs, watch your score tick up, die, restart. What it doesn't have is any reason to play twice.
