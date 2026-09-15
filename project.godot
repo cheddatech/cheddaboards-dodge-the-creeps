@@ -26,6 +26,9 @@ run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.6")
 config/icon="res://icon.webp"
 
+[autoload]
+
+CheddaBoards="*res://addons/cheddaboards/CheddaBoards.gd"
 
 [display]
 
@@ -35,6 +38,9 @@ window/size/window_width_override=480
 window/size/window_height_override=720
 window/stretch/mode="canvas_items"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/cheddaboards/plugin.cfg")
 
 [input]
 
