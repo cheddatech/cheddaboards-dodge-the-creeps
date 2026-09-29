@@ -6,9 +6,10 @@
 
 <p align="center">
   The official Godot demo game with a real online leaderboard — added in one script file, nothing to host.<br>
+  <a href="https://cheddagames.itch.io/dodge-the-creeps-x-cheddaboards"><strong>▶ Play it in your browser</strong></a> ·
   <a href="https://cheddaboards.com">cheddaboards.com</a> ·
   <a href="https://docs.cheddaboards.com/engines/godot-4">Docs</a> ·
-  <a href="https://github.com/cheddatech/CheddaBoards-Godot">SDK</a> ·
+  <a href="https://github.com/cheddatech/cheddaboards-godot-addon">Addon</a> ·
   <a href="https://store.godotengine.org/asset/cheddatech/cheddaboards">Godot Asset Store</a>
 </p>
 
@@ -20,9 +21,10 @@ Every Godot developer has built [Dodge the Creeps](https://docs.godotengine.org/
 
 This repo fixes that. The game submits every run to an online leaderboard and shows the top 10 at game over — with your own entry highlighted in gold. All the changes live in one file (`Main.gd`), and there's no backend to build: no server, no database, no per-player fees.
 
-**Two ways to use this repo:**
+**Three ways to use this repo:**
 
-- **Clone and run it.** Open the project in Godot 4.6+, add your own free API key (Step 2 below), play. The addon is included.
+- **Just play it.** [Live on itch.io](https://cheddagames.itch.io/dodge-the-creeps-x-cheddaboards), no download. Die, see the board, set a name.
+- **Clone and run it.** Open the project in Godot 4.3+, add your own free API key (Step 2 below), play. The addon is included.
 - **Read it as a tutorial.** The walkthrough below is the full integration, gotchas included. The commit history is deliberate: the first commit is vanilla Dodge the Creeps, the second adds the addon, the third is the integration — so `git show` on that third commit shows you *exactly* what an integration touches. It isn't much.
 
 ---
@@ -31,7 +33,7 @@ This repo fixes that. The game submits every run to an online leaderboard and sh
 
 *(Already done in this repo — this is what you'd do in your own game.)*
 
-Get the addon from the [Godot Asset Store](https://store.godotengine.org/asset/cheddatech/cheddaboards) or the [SDK repo](https://github.com/cheddatech/CheddaBoards-Godot) (the [Godot quick start](https://docs.cheddaboards.com/quickstart/godot) covers this same setup). You'll end up with an `addons/cheddaboards/` folder in your project root:
+Get the addon from the [Godot Asset Store](https://store.godotengine.org/asset/cheddatech/cheddaboards) or the [addon repo](https://github.com/cheddatech/cheddaboards-godot-addon) (the [Godot quick start](https://docs.cheddaboards.com/quickstart/godot) covers this same setup). You'll end up with an `addons/cheddaboards/` folder in your project root:
 
 ```
 your-project/
